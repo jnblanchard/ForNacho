@@ -1,0 +1,1 @@
+#include "childUtilities.h"void writeCommandToServer(std::string str, std::string expectedResponse){    std::cout << str << std::endl;    std::cout.flush();    std::string response;    std::cin >> response;    //    fprintf(stderr, "command: %s || response: %s \n", str.c_str(), response.c_str());//    assert(response == expectedResponse);}
